@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Github, Linkedin, Twitter, Mail } from "lucide-react";
-import gridLogo from "@/assets/grid-logo.jpeg";
+import gridLogo from "@/assets/grid-logo.webp";
 
 const Footer = () => {
   const footerLinks = {

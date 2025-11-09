@@ -6,8 +6,12 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import { Case } from "@/components/ui/cases-with-infinite-scroll";
 import { useLenisScroll } from "@/hooks/useLenisScroll";
-import gridInauguration from "@/assets/grid-inauguration.png";
+import gridInauguration from "@/assets/grid-inaugration.webp";
 import { Lightbulb, Users, Rocket, Award } from "lucide-react";
+import founders1 from "@/assets/founders-1.webp";
+import founders2 from "@/assets/founders-2.webp";
+import founders3 from "@/assets/founders-3.webp";
+
 
 const Home = () => {
   useLenisScroll();
@@ -128,17 +132,17 @@ const Home = () => {
       {/* 3 aligned images */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
         <img
-          src="/src/assets/founders-1.jpg"
+          src={founders1}
           alt="Founders discussion"
           className="w-full h-[280px] object-cover rounded-xl"
         />
         <img
-          src="/src/assets/founders-2.png"
+          src={founders2}
           alt="Startup community event"
           className="w-full h-[280px] object-cover rounded-xl"
         />
         <img
-          src="/src/assets/founders-3.jpg"
+          src={founders3}
           alt="Mentorship session"
           className="w-full h-[280px] object-cover rounded-xl"
         />
